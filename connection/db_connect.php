@@ -7,6 +7,6 @@ $dbuser = $url["user"];
 $dbpass = $url["pass"];
 $dbname = substr($url["path"],1);
 
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass);
+$conn = mysqli_connect($dbhost, $dbuser, $dbpass,$dbname);
 ?>
 
